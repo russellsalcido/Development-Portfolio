@@ -10,4 +10,4 @@ Run npm i or yarn to download dependencies and start.
 
 or click here:
 
-https://russellsalcido.github.io/development-portfolio/
+https://thawing-springs-33843.herokuapp.com/
