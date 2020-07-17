@@ -13,35 +13,47 @@ function About() {
 			<h1>About Page</h1>
 			<Container flex id="big-box">
 				<Row>
-					<Container md={1} className="about-box1">
-						<img id="selfie" src={Selfie}></img>
-					</Container>
-					<Container md={9} className="about-box2">
-						<h1>Location</h1>
-						<h5>Chandler, Az USA</h5>
-						<h1>Education</h1>
-						<h5>Certified graduate of the UofA Coding Bootcamp</h5>
-						<h2>Languages/Skills</h2>
-						<ul>
-							<li>HTML/CSS</li>
-							<li>Git</li>
-							<li>Bootstrap</li>
-							<li>JavaScript</li>
-							<li>jQuery</li>
-							<li>APIs</li>
-							<li>AJAX</li>
-							<li>Node</li>
-							<li>Express</li>
-							<li>MySQL</li>
-							<li>Handlebars</li>
-							<li>Sequelize</li>
-							<li>Heroku</li>
-							<li>MongoDB</li>
-							<li>Progressive Web</li>
-							<li>Apps (PWAs)</li>
-							<li>React</li>
-						</ul>
-					</Container>
+					<Col md={4}>
+						<Container className="about-box1">
+							<img id="selfie" src={Selfie}></img>
+						</Container>
+					</Col>
+					<Col md={8}>
+						<Container className="about-box2">
+							<h4>Location</h4>
+							<h6>Chandler, Az USA</h6>
+							<h4>Education</h4>
+							<h6>Certified graduate of the UofA Coding Bootcamp</h6>
+							<h5>Languages/Skills</h5>
+							<Row>
+								<Col>
+									<ul>
+										<li>HTML/CSS</li>
+										<li>Git</li>
+										<li>Bootstrap</li>
+										<li>JavaScript</li>
+										<li>jQuery</li>
+										<li>APIs</li>
+										<li>AJAX</li>
+										<li>Node</li>
+										<li>Express</li>
+									</ul>
+								</Col>
+								<Col>
+									<ul>
+										<li>MySQL</li>
+										<li>Handlebars</li>
+										<li>Sequelize</li>
+										<li>Heroku</li>
+										<li>MongoDB</li>
+										<li>Progressive Web</li>
+										<li>Apps (PWAs)</li>
+										<li>React</li>
+									</ul>
+								</Col>
+							</Row>
+						</Container>
+					</Col>
 				</Row>
 			</Container>
 		</div>

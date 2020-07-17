@@ -1,6 +1,5 @@
 import React from "react";
 import { MemoryRouter, Switch, Route } from "react-router-dom";
-import Jumbotron from "react-bootstrap/Jumbotron";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import ButtonToolbar from "react-bootstrap/ButtonToolbar";
@@ -16,9 +15,9 @@ import "./App.css";
 const App = () => (
 	<MemoryRouter>
 		<Container className="p-3">
-			<Jumbotron id="jumbo">
+			<Container id="jumbo">
 				<h1 className="header">X</h1>
-				<ButtonToolbar className="custom-btn-toolbar">
+				<ButtonToolbar className="custom-btn-toolbar" id="tool-bar">
 					<LinkContainer to="/">
 						<Button variant="outline-light">Home</Button>
 					</LinkContainer>
@@ -32,7 +31,7 @@ const App = () => (
 						<Button variant="outline-light">Contact</Button>
 					</LinkContainer>
 				</ButtonToolbar>
-			</Jumbotron>
+			</Container>
 			<h2>
 				{" "}
 				<Switch>

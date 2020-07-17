@@ -1,17 +1,25 @@
 #big-box {
 	background-color: rgb(61, 61, 61);
 	border-radius: 10px;
-	display: flex;
+	opacity: 90%;
+	padding-bottom: 20px;
+	padding-top: 20px;
 }
 
+h4,
 h5 {
-	color: white;
+	color: rgba(0, 0, 0, 0.815);
 	font-size: 15px;
+}
+
+h6 {
+	color: white;
 }
 
 li {
-	font-size: 15px;
+	font-size: 12px;
 	list-style: none;
+	color: white;
 }
 
 #selfie {
