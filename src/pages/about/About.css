@@ -1,0 +1,20 @@
+#big-box {
+	background-color: rgb(61, 61, 61);
+	border-radius: 10px;
+	display: flex;
+}
+
+h5 {
+	color: white;
+	font-size: 15px;
+}
+
+li {
+	font-size: 15px;
+	list-style: none;
+}
+
+#selfie {
+	border-radius: 10px;
+	padding-top: 20px;
+}

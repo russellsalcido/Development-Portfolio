@@ -1,0 +1,23 @@
+.card-box {
+	display: flex;
+}
+
+#card-main {
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.card-link {
+	font-size: 20px;
+	padding-bottom: 7px;
+	height: 64px;
+}
+
+.card-text {
+	font-size: 15px;
+}
+
+.card-title {
+	font-size: 30px;
+}
