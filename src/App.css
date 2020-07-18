@@ -28,7 +28,7 @@ h1 {
 #jumbo {
 	background-image: url(../src/images/blur-bg-mobile.jpg);
 	background-repeat: no-repeat;
-	opacity: 85%;
+	opacity: 95%;
 	background-size: 100%;
 	box-shadow: 0 0 20px 10px #fff, 0 40px 100px 10px rgb(130, 213, 252);
 	transition: box-shadow 4s ease-out;
